@@ -16,10 +16,21 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .font-raleway {
+        font-family: "Raleway";
+      }
+    </style>
+    <style>
+      .font-inter {
+        font-family: "Inter";
+      }
+    </style>
   </head>
   <body>
     <header class="container mx-auto">
-      <div class="navbar bg-base-100">
+      <!-- Nav bar -->
+      <div class="navbar bg-base-100 font-raleway">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -40,7 +51,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              class="text-lg menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li><a>Home</a></li>
               <li><a>About</a></li>
@@ -48,10 +59,10 @@
               <li><a>Search</a></li>
             </ul>
           </div>
-          <a class="text-2xl font-bold">E-Ticket</a>
+          <a class="text-3xl font-extrabold">E-Ticket</a>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="text-lg menu menu-horizontal px-1">
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Destination</a></li>
@@ -59,11 +70,114 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn text-green-400 bg-green-100 border-green-500 px-4">Bus <img src="images/bus-icon.png" alt="" /></a>
+          <a class="btn text-green-400 bg-green-100 border-green-500 px-6"
+            >Bus <img src="images/bus-icon.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <!-- Banner section -->
+      <div
+        class="hero rounded-3xl h-[550px] my-6"
+        style="background-image: url(images/banner.png)"
+      >
+        <div class=""></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="">
+            <h1 class="mb-5 text-6xl font-extrabold font-raleway py-4">
+              End-to-End Travel with <br />
+              <span class="text-green-500">E Paribahan</span>
+            </h1>
+            <p class="font-inter mb-5">
+              Experience the convenience, comfort, and affordability of our bus
+              service. Sit back, relax, and let us take you where you need to
+              go. <br />
+              Book your tickets today and embark on your next adventure with us!
+            </p>
+            <button
+              class="my-4 text-lg text-black btn-primary font-raleway bg-green-500 font-bold py-4 px-6 rounded-xl"
+            >
+              Buy Tickets
+            </button>
+          </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="container mx-auto">
+      <!-- best offer section -->
+      <h2 class="mt-10 text-4xl font-bold font-raleway py-8 text-center">
+        Best offers for you
+      </h2>
+      <div class="flex justify-between pt-4 pb-6">
+        <div class="flex">
+          <div
+            class="text-center h-[220px] w-[390px] bg-amber-400 rounded-l-3xl"
+          >
+            <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
+              15% OFF
+            </h2>
+            <p class="font-inter pb-3 font-bold text-xl">
+              on your next purchase
+            </p>
+            <p class="font-inter mb-5">use by January 2024</p>
+          </div>
+          <div class="bg-amber-400 w-[50px]">
+            <img src="images/cupon-devider.png" alt="" />
+          </div>
+          <div
+            class="text-center h-[220px] w-[310px] bg-amber-400 rounded-r-3xl"
+          >
+            <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
+              NEW15
+            </h2>
+            <p class="font-raleway pb-3 text-xl">Coupon Code</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div
+            class="text-center h-[220px] w-[390px] bg-rose-400 rounded-l-3xl"
+          >
+            <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
+              20% OFF
+            </h2>
+            <p class="font-inter pb-3 font-bold text-xl">
+              on your next purchase
+            </p>
+            <p class="font-inter mb-5">use by January 2024</p>
+          </div>
+          <div class="bg-rose-400 w-[50px]">
+            <img src="images/cupon-devider.png" alt="" />
+          </div>
+          <div
+            class="text-center h-[220px] w-[310px] bg-rose-400 rounded-r-3xl"
+          >
+            <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
+              Couple 20
+            </h2>
+            <p class="font-raleway pb-3 text-xl">Coupon Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex justify-center">
+        <button
+          class="rounded-2xl px-8 border-green-500 text-green-500 bg-white font-bold text-xl my-10 font-raleway btn sm:btn-sm md:btn-md lg:btn-lg"
+        >
+          See All Offers
+        </button>
+      </div>
+      <!-- bus details section -->
+      <div
+      class="py-10 flex flex-col text-center gap-y-4 border-y-2 border-y-gray-300 border-dashed mx-6 lg:mx-0"
+    >
+      <div class="mt-10 text-4xl font-bold font-raleway py-8 text-center">
+        Professional Hockeys Club
+      </div>
+      <div class="font-inter mb-5">
+        These clubs can range from amateur local teams to professional
+        organizations. If you have specific questions about hockey <br />
+        clubs or if there's something specific you'd like to know about them,
+        feel free to ask!
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
