@@ -28,187 +28,264 @@
     </style>
   </head>
   <body>
-    <header class="container mx-auto">
-      <!-- Nav bar -->
-      <div class="navbar bg-base-100 font-raleway">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <div class="px-16">  
+        <header class="container mx-auto">
+                <!-- Nav bar -->
+        <div class="navbar bg-base-100 font-raleway">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="text-lg menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="text-lg menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
+            <a class="text-3xl font-extrabold">E-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="text-lg menu menu-horizontal px-1">
               <li><a>Home</a></li>
               <li><a>About</a></li>
               <li><a>Destination</a></li>
               <li><a>Search</a></li>
             </ul>
           </div>
-          <a class="text-3xl font-extrabold">E-Ticket</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="text-lg menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Destination</a></li>
-            <li><a>Search</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn text-green-400 bg-green-100 border-green-500 px-6"
-            >Bus <img src="images/bus-icon.png" alt=""
-          /></a>
-        </div>
-      </div>
-      <!-- Banner section -->
-      <div
-        class="hero rounded-3xl h-[550px] my-6"
-        style="background-image: url(images/banner.png)"
-      >
-        <div class=""></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="">
-            <h1 class="mb-5 text-6xl font-extrabold font-raleway py-4">
-              End-to-End Travel with <br />
-              <span class="text-green-500">E Paribahan</span>
-            </h1>
-            <p class="font-inter mb-5">
-              Experience the convenience, comfort, and affordability of our bus
-              service. Sit back, relax, and let us take you where you need to
-              go. <br />
-              Book your tickets today and embark on your next adventure with us!
-            </p>
-            <button
-              class="my-4 text-lg text-black btn-primary font-raleway bg-green-500 font-bold py-4 px-6 rounded-xl"
-            >
-              Buy Tickets
-            </button>
+          <div class="navbar-end">
+            <a class="btn text-green-400 bg-green-100 border-green-500 px-6"
+              >Bus <img src="images/bus-icon.png" alt=""
+            /></a>
           </div>
         </div>
-      </div>
-    </header>
-    <main class="container mx-auto">
-      <!-- best offer section -->
-      <h2 class="mt-10 text-4xl font-bold font-raleway py-8 text-center">
-        Best offers for you
-      </h2>
-      <div class="flex justify-between pt-4 pb-6">
-        <div class="flex">
-          <div
-            class="text-center h-[220px] w-[390px] bg-amber-400 rounded-l-3xl"
-          >
-            <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
-              15% OFF
-            </h2>
-            <p class="font-inter pb-3 font-bold text-xl">
-              on your next purchase
-            </p>
-            <p class="font-inter mb-5">use by January 2024</p>
-          </div>
-          <div class="bg-amber-400 w-[50px]">
-            <img src="images/cupon-devider.png" alt="" />
-          </div>
-          <div
-            class="text-center h-[220px] w-[310px] bg-amber-400 rounded-r-3xl"
-          >
-            <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
-              NEW15
-            </h2>
-            <p class="font-raleway pb-3 text-xl">Coupon Code</p>
-          </div>
-        </div>
-        <div class="flex">
-          <div
-            class="text-center h-[220px] w-[390px] bg-rose-400 rounded-l-3xl"
-          >
-            <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
-              20% OFF
-            </h2>
-            <p class="font-inter pb-3 font-bold text-xl">
-              on your next purchase
-            </p>
-            <p class="font-inter mb-5">use by January 2024</p>
-          </div>
-          <div class="bg-rose-400 w-[50px]">
-            <img src="images/cupon-devider.png" alt="" />
-          </div>
-          <div
-            class="text-center h-[220px] w-[310px] bg-rose-400 rounded-r-3xl"
-          >
-            <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
-              Couple 20
-            </h2>
-            <p class="font-raleway pb-3 text-xl">Coupon Code</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-full flex justify-center">
-        <button
-          class="rounded-2xl px-8 border-green-500 text-green-500 bg-white font-bold text-xl my-10 font-raleway btn sm:btn-sm md:btn-md lg:btn-lg"
+        <!-- Banner section -->
+        <div
+          class="hero rounded-3xl h-[550px] my-6"
+          style="background-image: url(images/banner.png)"
         >
-          See All Offers
-        </button>
-      </div>
+          <div class=""></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="">
+              <h1 class="mb-5 text-6xl font-extrabold font-raleway py-4">
+                End-to-End Travel with <br />
+                <span class="text-green-500">E Paribahan</span>
+              </h1>
+              <p class="font-inter mb-5">
+                Experience the convenience, comfort, and affordability of our bus
+                service. Sit back, relax, and let us take you where you need to
+                go. <br />
+                Book your tickets today and embark on your next adventure with us!
+              </p>
+              <button
+                class="my-4 text-lg text-black btn-primary font-raleway bg-green-500 font-bold py-4 px-6 rounded-xl"
+              >
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="container mx-auto">
+        <!-- best offer section -->
+        <h2 class="mt-10 text-4xl font-bold font-raleway py-8 text-center">
+          Best offers for you
+        </h2>
+        <div class="flex justify-between pt-4 pb-6">
+          <div class="flex">
+            <div
+              class="text-center h-[220px] w-[350px] bg-amber-400 rounded-l-3xl"
+            >
+              <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
+                15% OFF
+              </h2>
+              <p class="font-inter pb-3 font-bold text-xl">
+                on your next purchase
+              </p>
+              <p class="font-inter mb-5">use by January 2024</p>
+            </div>
+            <div class="bg-amber-400 w-[50px]">
+              <img src="images/cupon-devider.png" alt="" />
+            </div>
+            <div
+              class="text-center h-[220px] w-[290px] bg-amber-400 rounded-r-3xl"
+            >
+              <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
+                NEW15
+              </h2>
+              <p class="font-raleway pb-3 text-xl">Coupon Code</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div
+              class="text-center h-[220px] w-[350px] bg-rose-400 rounded-l-3xl"
+            >
+              <h2 class="mb-5 text-4xl font-extrabold font-inter pt-10">
+                20% OFF
+              </h2>
+              <p class="font-inter pb-3 font-bold text-xl">
+                on your next purchase
+              </p>
+              <p class="font-inter mb-5">use by January 2024</p>
+            </div>
+            <div class="bg-rose-400 w-[50px]">
+              <img src="images/cupon-devider.png" alt="" />
+            </div>
+            <div
+              class="text-center h-[220px] w-[290px] bg-rose-400 rounded-r-3xl"
+            >
+              <h2 class="mb-5 text-4xl font-extrabold font-raleway pt-16">
+                Couple 20
+              </h2>
+              <p class="font-raleway pb-3 text-xl">Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full flex justify-center">
+          <button
+            class="rounded-2xl px-8 border-green-500 text-green-500 bg-white font-bold text-xl my-10 font-raleway btn sm:btn-sm md:btn-md lg:btn-lg"
+          >
+            See All Offers
+          </button>
+        </div></div>
+
+        <div class="container mx-auto">
+              
       <!-- E paribahan -->
       <div
-        class="mt-14 mb-8 bg-gray-50 flex flex-col text-center rounded-t-full border-t-4 border-t-green-500 mx-6 lg:mx-0"
-      >
-        <div class="mt-16 text-4xl font-bold font-raleway py-8 text-center">
-          E Paribahan
-        </div>
-        <div class="font-inter mb-5">
-          Experience the convenience, comfort, and affordability of our bus
-          service. Sit back, relax, and let us take you where you need to go.
-          <br />
-          Book your tickets today and embark on your next adventure with us!
-        </div>
+      class="mt-14 pb-10 bg-gray-100 flex flex-col text-center rounded-t-full border-t-4 border-t-green-500 mx-6 lg:mx-0"
+    >
+      <div class="mt-16 text-4xl font-bold font-raleway py-8 text-center">
+        E Paribahan
       </div>
-      <!-- bus details section -->
-      <div class="flex">
-        <!-- ticket details -->
-        <div>
-          <div class="flex justify-around w-[1050px]
-          ">
-            <div class="flex gap-3">
-              <img src="images/bus-logo.png" alt="" />
-              <div>
-                <div class="text-3xl font-bold font-raleway ">E Paribahan</div>
-                <div class="font-inter pt-2">Coach-009-WEB ! AC_Business</div>
-              </div>
-            </div>
-            <div class="rounded-2xl px-8 text-green-500 bg-green-100 font-bold text-xl font-inter btn sm:btn-sm md:btn-md lg:btn-lg">
-                <img src="images/seat-green.png" alt="">
-                <p>40 Seats left</p>
+      <div class="font-inter mb-5">
+        Experience the convenience, comfort, and affordability of our bus
+        service. Sit back, relax, and let us take you where you need to go.
+        <br />
+        Book your tickets today and embark on your next adventure with us!
+      </div>
+    </div>
+    <!-- bus details section -->
+    <div class="flex px-16 bg-gray-100">
+      <!-- ticket details -->
+      <div class="bg-white pt-6 rounded-2xl">
+        <div class="flex justify-between w-[1130px] px-20">
+          <div class="flex gap-3">
+            <img src="images/bus-logo.png" alt="" />
+            <div>
+              <div class="text-3xl font-bold font-raleway">E Paribahan</div>
+              <div class="font-inter pt-2">Coach-009-WEB ! AC_Business</div>
             </div>
           </div>
-          <div></div>
+          <div
+            class="rounded-2xl px-8 text-green-500 bg-green-100 font-bold text-xl font-inter btn sm:btn-sm md:btn-md lg:btn-lg"
+          >
+            <img src="images/seat-green.png" alt="" />
+            <p><span id="seatsLeft"> 40</span> Seats left</p>
+          </div>
         </div>
-        <!-- divider -->
-        <div>
-            <img src="images/info-devider.png" alt="">
-        </div>
-        <!-- ticket price -->
-        <div class="font-raleway text-center pt-32">
-            <img src="images/fare.png" class="pl-8" alt="">
-            <p class="text-3xl font-bold py-2">550 Taka</p>
-            <p class="text-xl">Per Seat</p>
+        <div class="bg-gray-100 py-6 m-6 rounded-3xl">
+          <div
+            class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
+          >
+            <p class="">Route</p>
+            <p class="font-bold">Dhaka - Sylhet</p>
+          </div>
+          <div
+            class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
+          >
+            <p>Departure Time</p>
+            <p class="font-bold">9:00 PM</p>
+          </div>
+          <div class="font-inter flex justify-around">
+            <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">
+              Boarding Point - Laxmipur
+            </p>
+            <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">Dropping Point - Bogura</p>
+            <p class="bg-gray-200 rounded-xl p-4 px-8 font-bold">Est. Time - 11 Hour</p>
+          </div>
         </div>
       </div>
+      <!-- divider -->
+      <div>
+        <img src="images/info-devider.png" alt="" class="bg-white" />
+      </div>
+      <!-- ticket price -->
+      <div class="font-raleway text-center pt-32 pr-10 bg-white rounded-2xl">
+        <img src="images/fare.png" class="pl-8" alt="" />
+        <p class="text-3xl font-bold py-2">550 Taka</p>
+        <p class="text-xl">Per Seat</p>
+      </div>
+    </div>
+<!-- select your seat section -->
+    <div class="bg-gray-100">
+        <!-- left -->
+        <div>
+
+        </div>
+        <!-- right -->
+        <div class="bg-white">
+    <div class="font-raleway text-3xl font-semibold p-6 border-b-2 border-dashed mx-6">
+    Select Your Seat
+    </div>
+    <div class="bg-gray-100 rounded-3xl">
+         <div class="font-semibold py-6 flex justify-between border-b-2 border-dashed mx-6">
+            <p>Seat <span id="numberOfSeatsSelected" class="text-white bg-green-500 px-3 rounded-lg ">0</span></p>
+            <p>Class</p>
+            <p>Price</p>
+         </div>
+         <div></div>
+         <div></div>
+         <div class="flex justify-between p-6">
+            <p class="font-semibold">Total Price</p>
+            <p>BDT <span id="totalPrice">0</span></p>
+         </div>
+         <div class="px-6">
+            <input type="text" placeholder="Have any coupon?" class="input rounded-xl w-full max-w-xs" />
+         </div>
+         <div class="flex justify-between p-6">
+            <p class="font-semibold">Grand Total</p>
+            <p>BDT <span id="discountedPrice">0</span></p>
+         </div>
+    </div>
+    <div>
+        <label class="form-control w-full max-w-xs">
+            <div class="label">
+              <span class="label-text">What is your name?</span>
+            </div>
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <div class="label">
+            </div>
+          </label>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+        </div>
+    </div>
+<!-- end of select seats -->
+        </div>
+
+    
+
     </main>
     <footer></footer>
   </body>
