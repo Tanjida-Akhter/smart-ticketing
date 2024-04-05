@@ -235,14 +235,111 @@
       </div>
     </div>
 <!-- select your seat section -->
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 flex p-16">
         <!-- left -->
-        <div>
+        <div class="">
+            <div class="container bg-white rounded-l-2xl ">
+                <div class="flex p-10">
+                  <div class=" bg-white px-8 border-r border-dashed border-gray-300">
+                    <div class="text-gray-800 font-semibold py-4">Select Your Seat</div>
+                    <div
+                      class="flex justify-between border-t border-b border-dashed border-gray-300"
+                    >
+                      <div class="py-4 flex gap-2">
+                        <img src="./images/seat-gray.png" /><span>Available</span>
+                      </div>
+                      <div class="w-1/2 py-4 text-right flex gap-2 justify-end">
+                        <img src="./images/seat-green-filled.png" /><span>Selected</span>
+                      </div>
+                    </div>
+                    <!-- prettier-ignore -->
+                    <div class="pt-6 grid grid-cols-10 gap-4 font-semibold">
+                      <div class="col-span-8"></div>
+                      <div class="col-span-2 bg-gray-200 p-2 rounded rounded-lg flex justify-center">
+                          <div class="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
+                              <span class="text-xl font-semibold text-gray-700">D</span>
+                          </div>
+                      </div>
+                      <div class="col-span-10 grid grid-cols-10 gap-10">
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">A</div>
+                          <div data-seat-no="A1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A1</div>
+                          <div data-seat-no="A2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A2</div>
+                          <div class="col-span-1"></div>
+                          <div data-seat-no="A3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A3</div>
+                          <div data-seat-no="A4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">B</div>
+                          <div data-seat-no="B1"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B1</div>
+                          <div data-seat-no="B2"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B2</div>
+                          <div class="col-span-1"></div>
+                          <div data-seat-no="B3"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B3</div>
+                          <div data-seat-no="B4"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">C</div>
+                          <div data-seat-no="C1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C1</div>
+                          <div data-seat-no="C2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C2</div>
+                          <div class="col-span-1"></div>
+                          <div data-seat-no="C3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C3</div>
+                          <div data-seat-no="C4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">D</div>
+                          <div data-seat-no="D1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D1</div>
+                          <div data-seat-no="D2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D2</div>
+                          <div class="col-span-1"></div>
+                          <div data-seat-no="D3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D3</div>
+                          <div data-seat-no="D4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">E</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">F</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">G</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">H</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">I</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I4</div>
+          
+                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">J</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J1</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J2</div>
+                          <div class="col-span-1"></div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J3</div>
+                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J4</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
         </div>
         <!-- right -->
-        <div class="bg-white">
-    <div class="font-raleway text-3xl font-semibold p-6 border-b-2 border-dashed mx-6">
+        <div class="bg-white rounded-r-2xl pr-10 p-4 pt-10">
+    <div class="font-raleway text-2xl font-semibold p-6 border-b-2 border-dashed mx-6 my-6">
     Select Your Seat
     </div>
     <div class="bg-gray-100 rounded-3xl">
@@ -251,46 +348,58 @@
             <p>Class</p>
             <p>Price</p>
          </div>
-         <div></div>
-         <div></div>
+         <div class=" py-4 flex justify-between mx-6">
+            <p>C2</span></p>
+            <p>Economoy</p>
+            <p>550</p>
+         </div>
+         <div class=" py-4 flex justify-between mx-6 border-b-4">
+            <p>C2</span></p>
+            <p>Economoy</p>
+            <p>550</p>
+         </div>
          <div class="flex justify-between p-6">
             <p class="font-semibold">Total Price</p>
             <p>BDT <span id="totalPrice">0</span></p>
          </div>
-         <div class="px-6">
+         <div class="px-6 relative">
             <input type="text" placeholder="Have any coupon?" class="input rounded-xl w-full max-w-xs" />
-         </div>
+            <button class="absolute inset-y-0 right-0 px-5 py-2 bg-green-500 text-white m-1 rounded-lg">Apply</button>
+          </div>
+         <!-- <div class="px-6">
+            <input type="text" placeholder="Have any coupon?" class="input rounded-xl w-full max-w-xs" />
+         </div> -->
          <div class="flex justify-between p-6">
             <p class="font-semibold">Grand Total</p>
             <p>BDT <span id="discountedPrice">0</span></p>
          </div>
     </div>
     <div class="font-inter">
-        <label class="form-control w-full max-w-xs">
+        <label class="form-control w-full ">
             <div class="label">
               <span class="label-text font-semibold">Passenger Name*</span>
             </div>
-            <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your name" class="input input-bordered w-full " />
             <div class="label">
             </div>
           </label>
     </div>
     <div class="font-inter">
-        <label class="form-control w-full max-w-xs">
+        <label class="form-control w-full ">
             <div class="label">
               <span class="label-text font-semibold">Phone Number*</span>
             </div>
-            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full " />
             <div class="label">
             </div>
           </label>
     </div>
     <div class="font-inter">
-        <label class="form-control w-full max-w-xs">
+        <label class="form-control w-full">
             <div class="label">
               <span class="label-text font-semibold">Email ID</span>
             </div>
-            <input type="text" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs" />
+            <input type="text" placeholder="Enter your email id" class="input input-bordered w-full " />
             <div class="label">
             </div>
           </label>
@@ -298,7 +407,7 @@
     <div class="">
         <button class="btn btn-block bg-green-400 text-white">Next</button>
     </div>
-    <div class="font-inter text-gray-500 flex justify-around p-4">
+    <div class="font-inter text-gray-500 flex justify-around p-4 gap-10">
         <p class="border-b-2">Terms and Conditions</p>
         <p class="border-b-2">Cancellation Policy</p>
     </div>
@@ -322,7 +431,17 @@
                            
               <div>
                   <div class="font-raleway">Download our app</div>
-                  <div></div>
+
+
+                  <div class="flex gap-3 border-2 rounded-xl px-3 py-2">
+                   <div>
+                    <img src="images/playstore.png" alt="">
+                   </div> 
+                    <div>
+                        <p>GET IT ON</p>
+                        <p>Google Play</p>
+                    </div>
+                  </div>
   
               </div>
            </div>
