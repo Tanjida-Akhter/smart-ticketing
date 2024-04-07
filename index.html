@@ -11,9 +11,9 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap"
       rel="stylesheet"
     />
     <style>
@@ -27,11 +27,11 @@
       }
     </style>
   </head>
-  <body>
-    <div class="px-16">  
-        <header class="container mx-auto">
-                <!-- Nav bar -->
-        <div class="navbar bg-base-100 font-raleway">
+  <body class="bg-white text-gray-800">
+    <div class="px-16">
+      <header class="container mx-auto">
+        <!-- Nav bar -->
+        <div class="navbar font-raleway">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
                   fill="none"
-                  viewBox="0 0 24 24"
+                  viewbox="0 0 24 24"
                   stroke="currentColor"
                 >
                   <path
@@ -47,32 +47,48 @@
                     stroke-linejoin="round"
                     stroke-width="2"
                     d="M4 6h16M4 12h8m-8 6h16"
-                  />
+                  ></path>
                 </svg>
               </div>
               <ul
                 tabindex="0"
                 class="text-lg menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Destination</a></li>
-                <li><a>Search</a></li>
+                <li>
+                  <a>Home</a>
+                </li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li>
+                  <a>Destination</a>
+                </li>
+                <li>
+                  <a>Search</a>
+                </li>
               </ul>
             </div>
             <a class="text-3xl font-extrabold">E-Ticket</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="text-lg menu menu-horizontal px-1">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Destination</a></li>
-              <li><a>Search</a></li>
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>About</a>
+              </li>
+              <li>
+                <a>Destination</a>
+              </li>
+              <li>
+                <a>Search</a>
+              </li>
             </ul>
           </div>
           <div class="navbar-end">
             <a class="btn text-green-400 bg-green-100 border-green-500 px-6"
-              >Bus <img src="images/bus-icon.png" alt=""
+              >Bus <img src="images/bus-icon.png" alt="bus-icon"
             /></a>
           </div>
         </div>
@@ -85,14 +101,15 @@
           <div class="hero-content text-center text-neutral-content">
             <div class="">
               <h1 class="mb-5 text-6xl font-extrabold font-raleway py-4">
-                End-to-End Travel with <br />
+                End-to-End Travel with<br />
                 <span class="text-green-500">E Paribahan</span>
               </h1>
               <p class="font-inter mb-5">
-                Experience the convenience, comfort, and affordability of our bus
-                service. Sit back, relax, and let us take you where you need to
-                go. <br />
-                Book your tickets today and embark on your next adventure with us!
+                Experience the convenience, comfort, and affordability of our
+                bus service. Sit back, relax, and let us take you where you need
+                to go.<br />
+                Book your tickets today and embark on your next adventure with
+                us!
               </p>
               <button
                 class="my-4 text-lg text-black btn-primary font-raleway bg-green-500 font-bold py-4 px-6 rounded-xl"
@@ -122,7 +139,7 @@
               <p class="font-inter mb-5">use by January 2024</p>
             </div>
             <div class="bg-amber-400 w-[50px]">
-              <img src="images/cupon-devider.png" alt="" />
+              <img src="images/cupon-devider.png" alt="cupon-devider" />
             </div>
             <div
               class="text-center h-[220px] w-[290px] bg-amber-400 rounded-r-3xl"
@@ -146,7 +163,7 @@
               <p class="font-inter mb-5">use by January 2024</p>
             </div>
             <div class="bg-rose-400 w-[50px]">
-              <img src="images/cupon-devider.png" alt="" />
+              <img src="images/cupon-devider.png" alt="cupon-devider" />
             </div>
             <div
               class="text-center h-[220px] w-[290px] bg-rose-400 rounded-r-3xl"
@@ -164,303 +181,577 @@
           >
             See All Offers
           </button>
-        </div></div>
-
-        <div class="container mx-auto">
-              
+        </div>
+      </main>
+    </div>
+    <div class="px-16">
       <!-- E paribahan -->
       <div
-      class="mt-14 pb-10 bg-gray-100 flex flex-col text-center rounded-t-full border-t-4 border-t-green-500 mx-6 lg:mx-0"
-    >
-      <div class="mt-16 text-4xl font-bold font-raleway py-8 text-center">
-        E Paribahan
+        class="mt-14 pb-10 bg-gray-100 flex flex-col text-center rounded-t-full border-t-4 border-t-green-500 mx-6 lg:mx-0"
+      >
+        <div class="mt-16 text-4xl font-bold font-raleway py-8 text-center">
+          E Paribahan
+        </div>
+        <div class="font-inter mb-5">
+          Experience the convenience, comfort, and affordability of our bus
+          service. Sit back, relax, and let us take you where you need to go.<br />
+          Book your tickets today and embark on your next adventure with us!
+        </div>
       </div>
-      <div class="font-inter mb-5">
-        Experience the convenience, comfort, and affordability of our bus
-        service. Sit back, relax, and let us take you where you need to go.
-        <br />
-        Book your tickets today and embark on your next adventure with us!
-      </div>
-    </div>
-    <!-- bus details section -->
-    <div class="flex px-16 bg-gray-100">
-      <!-- ticket details -->
-      <div class="bg-white pt-6 rounded-2xl">
-        <div class="flex justify-between w-[1130px] px-20">
-          <div class="flex gap-3">
-            <img src="images/bus-logo.png" alt="" />
-            <div>
-              <div class="text-3xl font-bold font-raleway">E Paribahan</div>
-              <div class="font-inter pt-2">Coach-009-WEB ! AC_Business</div>
+      <!-- bus details section -->
+      <div class="flex px-16 bg-gray-100">
+        <!-- ticket details -->
+        <div class="bg-white pt-6 rounded-2xl">
+          <div class="flex justify-between w-[1130px] px-20">
+            <div class="flex gap-3">
+              <img src="images/bus-logo.png" alt="bus-logo" />
+              <div>
+                <div class="text-3xl font-bold font-raleway">E Paribahan</div>
+                <div class="font-inter pt-2">Coach-009-WEB ! AC_Business</div>
+              </div>
+            </div>
+            <div
+              class="rounded-2xl px-8 text-green-500 bg-green-100 font-bold text-xl font-inter btn sm:btn-sm md:btn-md lg:btn-lg"
+            >
+              <img src="images/seat-green.png" alt="seat-green" />
+              <p><span id="seatsLeft">40</span> Seats left</p>
             </div>
           </div>
-          <div
-            class="rounded-2xl px-8 text-green-500 bg-green-100 font-bold text-xl font-inter btn sm:btn-sm md:btn-md lg:btn-lg"
-          >
-            <img src="images/seat-green.png" alt="" />
-            <p><span id="seatsLeft"> 40</span> Seats left</p>
+          <div class="bg-gray-100 py-6 m-6 rounded-3xl">
+            <div
+              class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
+            >
+              <p class="">Route</p>
+              <p class="font-bold">Dhaka - Sylhet</p>
+            </div>
+            <div
+              class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
+            >
+              <p>Departure Time</p>
+              <p class="font-bold">9:00 PM</p>
+            </div>
+            <div class="font-inter flex justify-around">
+              <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">
+                Boarding Point - Laxmipur
+              </p>
+              <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">
+                Dropping Point - Bogura
+              </p>
+              <p class="bg-gray-200 rounded-xl p-4 px-8 font-bold">
+                Est. Time - 11 Hour
+              </p>
+            </div>
           </div>
         </div>
-        <div class="bg-gray-100 py-6 m-6 rounded-3xl">
-          <div
-            class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
-          >
-            <p class="">Route</p>
-            <p class="font-bold">Dhaka - Sylhet</p>
-          </div>
-          <div
-            class="font-raleway flex justify-between gap-6 my-8 border-b-2 border-dashed pb-6 mx-14 px-12"
-          >
-            <p>Departure Time</p>
-            <p class="font-bold">9:00 PM</p>
-          </div>
-          <div class="font-inter flex justify-around">
-            <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">
-              Boarding Point - Laxmipur
-            </p>
-            <p class="bg-gray-200 rounded-xl p-4 font-bold px-8">Dropping Point - Bogura</p>
-            <p class="bg-gray-200 rounded-xl p-4 px-8 font-bold">Est. Time - 11 Hour</p>
-          </div>
+        <!-- divider -->
+        <div>
+          <img
+            src="images/info-devider.png"
+            alt="info-devider"
+            class="bg-white"
+          />
+        </div>
+        <!-- ticket price -->
+        <div class="font-raleway text-center pt-32 pr-10 bg-white rounded-2xl">
+          <img src="images/fare.png" class="pl-8" alt="fare" />
+          <p class="text-3xl font-bold py-2">550 Taka</p>
+          <p class="text-xl">Per Seat</p>
         </div>
       </div>
-      <!-- divider -->
-      <div>
-        <img src="images/info-devider.png" alt="" class="bg-white" />
-      </div>
-      <!-- ticket price -->
-      <div class="font-raleway text-center pt-32 pr-10 bg-white rounded-2xl">
-        <img src="images/fare.png" class="pl-8" alt="" />
-        <p class="text-3xl font-bold py-2">550 Taka</p>
-        <p class="text-xl">Per Seat</p>
-      </div>
-    </div>
-<!-- select your seat section -->
-    <div class="bg-gray-100 flex p-16">
+      <!-- select your seat section -->
+      <div class="bg-gray-100 flex p-16">
         <!-- left -->
         <div class="">
-            <div class="container bg-white rounded-l-2xl ">
-                <div class="flex p-10">
-                  <div class=" bg-white px-8 border-r border-dashed border-gray-300">
-                    <div class="text-gray-800 font-semibold py-4">Select Your Seat</div>
-                    <div
-                      class="flex justify-between border-t border-b border-dashed border-gray-300"
+          <div class="container bg-white rounded-l-2xl">
+            <div class="flex p-10">
+              <div class="bg-white px-8 border-r border-dashed border-gray-300">
+                <div class="text-gray-800 font-semibold py-4">
+                  Select Your Seat
+                </div>
+                <div
+                  class="flex justify-between border-t border-b border-dashed border-gray-300"
+                >
+                  <div class="py-4 flex gap-2">
+                    <img src="./images/seat-gray.png" alt="seat-gray" /><span
+                      >Available</span
                     >
-                      <div class="py-4 flex gap-2">
-                        <img src="./images/seat-gray.png" /><span>Available</span>
-                      </div>
-                      <div class="w-1/2 py-4 text-right flex gap-2 justify-end">
-                        <img src="./images/seat-green-filled.png" /><span>Selected</span>
-                      </div>
+                  </div>
+                  <div class="w-1/2 py-4 text-right flex gap-2 justify-end">
+                    <img
+                      src="./images/seat-green-filled.png"
+                      alt="seat-green-filled"
+                    /><span>Selected</span>
+                  </div>
+                </div>
+                <div class="pt-6 grid grid-cols-10 gap-4 font-semibold">
+                  <div class="col-span-8"></div>
+                  <div
+                    class="col-span-2 bg-gray-200 p-2 rounded rounded-lg flex justify-center"
+                  >
+                    <div
+                      class="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center"
+                    >
+                      <span class="text-xl font-semibold text-gray-700">D</span>
                     </div>
-                    <!-- prettier-ignore -->
-                    <div class="pt-6 grid grid-cols-10 gap-4 font-semibold">
-                      <div class="col-span-8"></div>
-                      <div class="col-span-2 bg-gray-200 p-2 rounded rounded-lg flex justify-center">
-                          <div class="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
-                              <span class="text-xl font-semibold text-gray-700">D</span>
-                          </div>
-                      </div>
-                      <div class="col-span-10 grid grid-cols-10 gap-10">
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">A</div>
-                          <div data-seat-no="A1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A1</div>
-                          <div data-seat-no="A2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A2</div>
-                          <div class="col-span-1"></div>
-                          <div data-seat-no="A3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A3</div>
-                          <div data-seat-no="A4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">A4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">B</div>
-                          <div data-seat-no="B1"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B1</div>
-                          <div data-seat-no="B2"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B2</div>
-                          <div class="col-span-1"></div>
-                          <div data-seat-no="B3"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B3</div>
-                          <div data-seat-no="B4"  class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-gray-400">B4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">C</div>
-                          <div data-seat-no="C1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C1</div>
-                          <div data-seat-no="C2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C2</div>
-                          <div class="col-span-1"></div>
-                          <div data-seat-no="C3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C3</div>
-                          <div data-seat-no="C4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">C4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">D</div>
-                          <div data-seat-no="D1" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D1</div>
-                          <div data-seat-no="D2" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D2</div>
-                          <div class="col-span-1"></div>
-                          <div data-seat-no="D3" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D3</div>
-                          <div data-seat-no="D4" class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer">D4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">E</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">E4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">F</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">F4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">G</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">G4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">H</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">H4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">I</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">I4</div>
-          
-                          <div class="p-4 rounded rounded-lg flex justify-center col-span-1">J</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J1</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J2</div>
-                          <div class="col-span-1"></div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J3</div>
-                          <div class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2">J4</div>
-                      </div>
+                  </div>
+                  <div class="col-span-10 grid grid-cols-10 gap-10">
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      A
+                    </div>
+                    <div
+                      data-seat-no="A1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      A1
+                    </div>
+                    <div
+                      data-seat-no="A2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      A2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="A3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      A3
+                    </div>
+                    <div
+                      data-seat-no="A4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      A4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      B
+                    </div>
+                    <div
+                      data-seat-no="B1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      B1
+                    </div>
+                    <div
+                      data-seat-no="B2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      B2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="B3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      B3
+                    </div>
+                    <div
+                      data-seat-no="B4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      B4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      C
+                    </div>
+                    <div
+                      data-seat-no="C1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      C1
+                    </div>
+                    <div
+                      data-seat-no="C2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      C2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="C3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      C3
+                    </div>
+                    <div
+                      data-seat-no="C4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      C4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      D
+                    </div>
+                    <div
+                      data-seat-no="D1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      D1
+                    </div>
+                    <div
+                      data-seat-no="D2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      D2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="D3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      D3
+                    </div>
+                    <div
+                      data-seat-no="D4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      D4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      E
+                    </div>
+                    <div
+                      data-seat-no="E1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      E1
+                    </div>
+                    <div
+                      data-seat-no="E2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      E2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="E3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      E3
+                    </div>
+                    <div
+                      data-seat-no="E4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      E4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      F
+                    </div>
+                    <div
+                      data-seat-no="F1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      F1
+                    </div>
+                    <div
+                      data-seat-no="F2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      F2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="F3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      F3
+                    </div>
+                    <div
+                      data-seat-no="F4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      F4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      G
+                    </div>
+                    <div
+                      data-seat-no="G1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      G1
+                    </div>
+                    <div
+                      data-seat-no="G2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      G2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="G3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      G3
+                    </div>
+                    <div
+                      data-seat-no="G4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      G4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      H
+                    </div>
+                    <div
+                      data-seat-no="H1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      H1
+                    </div>
+                    <div
+                      data-seat-no="H2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      H2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="H3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      H3
+                    </div>
+                    <div
+                      data-seat-no="H4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      H4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      I
+                    </div>
+                    <div
+                      data-seat-no="I1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      I1
+                    </div>
+                    <div
+                      data-seat-no="I2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      I2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="I3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      I3
+                    </div>
+                    <div
+                      data-seat-no="I4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      I4
+                    </div>
+                    <div
+                      class="p-4 rounded rounded-lg flex justify-center col-span-1"
+                    >
+                      J
+                    </div>
+                    <div
+                      data-seat-no="J1"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      J1
+                    </div>
+                    <div
+                      data-seat-no="J2"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      J2
+                    </div>
+                    <div class="col-span-1"></div>
+                    <div
+                      data-seat-no="J3"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      J3
+                    </div>
+                    <div
+                      data-seat-no="J4"
+                      class="bg-gray-200 p-4 rounded rounded-lg flex justify-center col-span-2 hover:cursor-pointer hover:bg-green-500"
+                    >
+                      J4
                     </div>
                   </div>
                 </div>
               </div>
-
+            </div>
+          </div>
         </div>
         <!-- right -->
         <div class="bg-white rounded-r-2xl pr-10 p-4 pt-10">
-    <div class="font-raleway text-2xl font-semibold p-6 border-b-2 border-dashed mx-6 my-6">
-    Select Your Seat
-    </div>
-    <div class="bg-gray-100 rounded-3xl">
-         <div class="font-semibold py-6 flex justify-between border-b-2 border-dashed mx-6">
-            <p>Seat <span id="numberOfSeatsSelected" class="text-white bg-green-500 px-3 rounded-lg ">0</span></p>
-            <p>Class</p>
-            <p>Price</p>
-         </div>
-         <div class=" py-4 flex justify-between mx-6">
-            <p>C2</span></p>
-            <p>Economoy</p>
-            <p>550</p>
-         </div>
-         <div class=" py-4 flex justify-between mx-6 border-b-4">
-            <p>C2</span></p>
-            <p>Economoy</p>
-            <p>550</p>
-         </div>
-         <div class="flex justify-between p-6">
-            <p class="font-semibold">Total Price</p>
-            <p>BDT <span id="totalPrice">0</span></p>
-         </div>
-         <div class="px-6 relative">
-            <input type="text" placeholder="Have any coupon?" class="input rounded-xl w-full max-w-xs" />
-            <button class="absolute inset-y-0 right-0 px-5 py-2 bg-green-500 text-white m-1 rounded-lg">Apply</button>
+          <div
+            class="font-raleway text-2xl font-semibold p-6 border-b-2 border-dashed mx-6 my-6"
+          >
+            Select Your Seat
           </div>
-         <!-- <div class="px-6">
+          <div class="bg-gray-100 rounded-3xl">
+            <div
+              class="font-semibold py-6 flex justify-between border-b-2 border-dashed mx-6"
+            >
+              <p>
+                Seat
+                <span
+                  id="numberOfSeatsSelected"
+                  class="text-white bg-green-500 px-3 rounded-lg"
+                  >0</span
+                >
+              </p>
+              <p>Class</p>
+              <p>Price</p>
+            </div>
+            <div id="list-selected-seats">
+              <div class="py-4 flex justify-between mx-6">No seat selected</div>
+            </div>
+            <div class="flex justify-between p-6">
+              <p class="font-semibold">Total Price</p>
+              <p class="font-semibold">BDT <span id="totalPrice">0</span></p>
+            </div>
+            <div class="px-6 relative">
+              <input
+                type="text"
+                placeholder="Have any coupon?"
+                class="input rounded-xl w-full max-w-xs bg-white"
+                id="txt-discount-coupon"
+              />
+              <button
+                class="absolute inset-y-0 right-0 px-5 py-2 text-white m-1 rounded-lg bg-gray-400"
+                id="applyCoupon"
+                disabled
+              >
+                Apply
+              </button>
+            </div>
+            <!-- <div class="px-6">
             <input type="text" placeholder="Have any coupon?" class="input rounded-xl w-full max-w-xs" />
          </div> -->
-         <div class="flex justify-between p-6">
-            <p class="font-semibold">Grand Total</p>
-            <p>BDT <span id="discountedPrice">0</span></p>
-         </div>
-    </div>
-    <div class="font-inter">
-        <label class="form-control w-full ">
-            <div class="label">
-              <span class="label-text font-semibold">Passenger Name*</span>
+            <div class="flex justify-between p-6">
+              <p class="font-semibold">Grand Total</p>
+              <p class="font-semibold">
+                BDT <span id="granTotalPrice">0</span>
+              </p>
             </div>
-            <input type="text" placeholder="Enter your name" class="input input-bordered w-full " />
+          </div>
+          <div class="font-inter">
             <div class="label">
+              <label class="form-control w-full"
+                ><span class="label-text font-semibold"
+                  >Passenger Name*</span
+                ></label
+              >
             </div>
-          </label>
-    </div>
-    <div class="font-inter">
-        <label class="form-control w-full ">
+            <label class="form-control w-full"
+              ><input
+                type="text"
+                placeholder="Enter your name"
+                class="input input-bordered w-full bg-white"
+                id="txtPassengerName"
+            /></label>
+            <div class="label"></div>
+          </div>
+          <div class="font-inter">
             <div class="label">
-              <span class="label-text font-semibold">Phone Number*</span>
+              <label class="form-control w-full"
+                ><span class="label-text font-semibold"
+                  >Phone Number*</span
+                ></label
+              >
             </div>
-            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full " />
+            <label class="form-control w-full"
+              ><input
+                type="text"
+                placeholder="Enter your phone number"
+                class="input input-bordered w-full bg-white"
+                id="txtPhoneNumber"
+            /></label>
+            <div class="label"></div>
+          </div>
+          <div class="font-inter">
             <div class="label">
+              <label class="form-control w-full"
+                ><span class="label-text font-semibold">Email ID</span></label
+              >
             </div>
-          </label>
-    </div>
-    <div class="font-inter">
-        <label class="form-control w-full">
-            <div class="label">
-              <span class="label-text font-semibold">Email ID</span>
-            </div>
-            <input type="text" placeholder="Enter your email id" class="input input-bordered w-full " />
-            <div class="label">
-            </div>
-          </label>
-    </div>
-    <div class="">
-        <button class="btn btn-block bg-green-400 text-white">Next</button>
-    </div>
-    <div class="font-inter text-gray-500 flex justify-around p-4 gap-10">
-        <p class="border-b-2">Terms and Conditions</p>
-        <p class="border-b-2">Cancellation Policy</p>
-    </div>
-
+            <label class="form-control w-full"
+              ><input
+                type="text"
+                placeholder="Enter your email id"
+                class="input input-bordered w-full bg-white"
+            /></label>
+            <div class="label"></div>
+          </div>
+          <div>
+            <button
+              class="btn btn-block text-white bg-gray-400"
+              disabled
+              id="btnNext"
+            >
+              Next
+            </button>
+          </div>
+          <div class="font-inter text-gray-500 flex justify-around p-4 gap-10">
+            <p class="border-b-2">Terms and Conditions</p>
+            <p class="border-b-2">Cancellation Policy</p>
+          </div>
         </div>
+      </div>
+      <!-- end of select seats -->
     </div>
-<!-- end of select seats -->
+    <footer class="p-10 bg-black text-white">
+      <div class="flex justify-between w-full border-b-2 border-dashed py-10">
+        <div>
+          <p class="font-raleway text-3xl font-bold">E-Ticket</p>
+          <p class="font-inter">
+            E-Ticket is a digital platform to make your<br />
+            daily commuting better.
+          </p>
         </div>
-
-    
-
-    </main>
-    <footer>
-        <footer class="p-10 bg-black text-white ">
-           
-            <div class="flex justify-between w-full border-b-2 border-dashed py-10 ">
+        <div>
+          <div class="font-raleway">Download our app</div>
+          <div class="flex gap-3 border-2 rounded-xl px-3 py-2">
+            <div><img src="images/playstore.png" alt="playstore" /></div>
             <div>
-                <p class="font-raleway text-3xl font-bold ">E-Ticket</p>
-                <p class="font-inter"> E-Ticket is a digital platform to make your <br> daily commuting better.</p>
+              <p>GET IT ON</p>
+              <p>Google Play</p>
             </div>
-                           
-              <div>
-                  <div class="font-raleway">Download our app</div>
-
-
-                  <div class="flex gap-3 border-2 rounded-xl px-3 py-2">
-                   <div>
-                    <img src="images/playstore.png" alt="">
-                   </div> 
-                    <div>
-                        <p>GET IT ON</p>
-                        <p>Google Play</p>
-                    </div>
-                  </div>
-  
-              </div>
-           </div>
-
-
-           <div class="py-6 flex justify-between">
-            <div class="font-raleway">@all rights reserved, E-Ticket services limited.2024</div>
-            <div class="font-inter flex gap-6">
-                <p>Terms & condition</p>
-                <p>Return & refund policy</p>
-                <p>Privacy policy</p>
-
-            </div>
-           </div>
-
-          
-              
-           
-          </footer>
+          </div>
+        </div>
+      </div>
+      <div class="py-6 flex justify-between">
+        <div class="font-raleway">
+          @all rights reserved, E-Ticket services limited.2024
+        </div>
+        <div class="font-inter flex gap-6">
+          <p>Terms & condition</p>
+          <p>Return & refund policy</p>
+          <p>Privacy policy</p>
+        </div>
+      </div>
     </footer>
+
+    <script src="./smart-ticketing.js"></script>
   </body>
 </html>
